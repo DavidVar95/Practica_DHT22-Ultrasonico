@@ -104,34 +104,33 @@ delay(1000);
 ```
 2. Instalar la libreria de **DHT sensor library for ESPx** y  **LiquidCrystal I2C** como se muestra en la siguente imagen.
 
-![](https://github.com/DiegoJm10/PracticaDHT/blob/main/Libreria%20DHT.png?raw=true)
+![](https://github.com/DavidVar95/Practica_DHT22-Ultrasonico/blob/main/Captura%20de%20pantalla%202023-06-10%2013.30.36.png?raw=true)
 
-3. Hacer la conexion de **DHT11** con la **ESP32** como se muestra en la siguente imagen.
+3. Hacer la conexion de **DHT11**, **HC-SR04** Y **LCD**con la **ESP32** como se muestra en la siguente imagen.
 
-![](https://github.com/DavidVar95/EJEMPLONUM1/blob/main/EC1.png?raw=true)
+![](https://github.com/DavidVar95/Practica_DHT22-Ultrasonico/blob/main/Captura%20de%20pantalla%202023-06-10%2013.35.46.png?raw=true)
 
 ### Instrucciónes de operación
 
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
 3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT11** 
+4. Selecionar la distancia en el ultrasonico
 
 ## Resultados
 
-Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
+la pantalla lcd mostrara los datos de temperatura, humedad y distancia despues de determinado tiempo.
 
-![](https://github.com/DiegoJm10/PracticaDHT/blob/main/New%20ESP32%20Project%20-%20Wokwi%20Simulator%20-%20Google%20Chrome%2008_06_2023%2011_10_20%20p.%20m..png?raw=true)
+- Distancia
 
+![](https://github.com/DavidVar95/Practica_DHT22-Ultrasonico/blob/main/Captura%20de%20pantalla%202023-06-10%2013.40.10.png?raw=true)
 
+- Temperatura y humedad
 
+![](https://github.com/DavidVar95/Practica_DHT22-Ultrasonico/blob/main/Captura%20de%20pantalla%202023-06-10%2013.41.23.png?raw=true)
 
-## Evidencias
-
-[Video de Youtube](https://https://wokwi.com/)
 
 
 # Créditos
 
-Desarrollado por Ing. Diego Jasso Miranda
-
-- [GitHub](https://github.com/DiegoJm10)
+Desarrollado por Ing. David Vargas Gonzalez
